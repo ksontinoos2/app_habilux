@@ -302,16 +302,13 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(Icons.category, color: Colors.white, size: 32),
-                    const SizedBox(width: 12),
-                    Text(
-                      widget.propertyType,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 26,
-                        fontWeight: FontWeight.bold,
-                      ),
+                    Image.asset(
+                      'assets/images/logohome.png',
+                      width: 200,
+                      height: 120,
+                      fit: BoxFit.contain,
                     ),
                   ],
                 ),
@@ -427,7 +424,7 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               const Text(
-                                'Prix (en €)',
+                                'Prix (en DT)',
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
                               RangeSlider(

@@ -5,6 +5,7 @@ import 'profile_screen.dart';
 import 'property_list_screen.dart';
 import 'property_detail_screen.dart';
 import '../constants/colors.dart';
+import 'chatbot_screen.dart';
 
 class MainNavigation extends StatefulWidget {
   const MainNavigation({Key? key}) : super(key: key);
@@ -56,6 +57,7 @@ class _MainNavigationState extends State<MainNavigation> {
       const RechercheScreen(),
       FavorisScreen(favoris: _favoris, onRemoveFavori: removeFromFavoris),
       const ProfileScreen(),
+      const ChatbotScreen(),
     ];
     return Scaffold(
       body: _pages[_currentIndex],
@@ -205,7 +207,11 @@ class _RechercheScreenState extends State<RechercheScreen> {
 
     return Scaffold(
       backgroundColor: AppColors.background,
-      appBar: AppBar(title: const Text('Recherche'), centerTitle: true),
+      appBar: AppBar(
+        title: Image.asset('assets/images/logohome.png', height: 40),
+        centerTitle: true,
+        backgroundColor: AppColors.primary,
+      ),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
@@ -329,7 +335,7 @@ class _RechercheScreenState extends State<RechercheScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        'Prix (en €)',
+                        'Prix (eSn DT)',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                       RangeSlider(
@@ -468,7 +474,11 @@ class FavorisScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Favoris'), centerTitle: true),
+      appBar: AppBar(
+        title: Image.asset('assets/images/logohome.png', height: 40),
+        centerTitle: true,
+        backgroundColor: AppColors.primary,
+      ),
       body:
           favoris.isEmpty
               ? const Center(child: Text('Aucun favori pour le moment.'))

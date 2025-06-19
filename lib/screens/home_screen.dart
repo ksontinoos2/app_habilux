@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
     {
       'label': 'Bureau commercial',
       'icon': Icons.business,
-      'image': 'https://images.unsplash.com/photo-1503389152951-9c3d8bca6c63',
+      'image': 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f',
     },
     {
       'label': 'Terrain',
@@ -66,30 +66,18 @@ class _HomeScreenState extends State<HomeScreen> {
                 bottomRight: Radius.circular(32),
               ),
             ),
-            padding: const EdgeInsets.symmetric(vertical: 36, horizontal: 24),
+            padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 24),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    CircleAvatar(
-                      radius: 28,
-                      backgroundColor: Colors.white,
-                      child: Icon(
-                        Icons.home,
-                        color: AppColors.primary,
-                        size: 36,
-                      ),
-                    ),
-                    const SizedBox(width: 16),
-                    Text(
-                      'HabiLux',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 32,
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 2,
-                      ),
+                    Image.asset(
+                      'assets/images/logohome.png',
+                      width: 200,
+                      height: 120,
+                      fit: BoxFit.contain,
                     ),
                   ],
                 ),

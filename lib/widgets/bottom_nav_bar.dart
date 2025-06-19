@@ -24,6 +24,10 @@ class CustomBottomNavBar extends StatelessWidget {
         BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Recherche'),
         BottomNavigationBarItem(icon: Icon(Icons.favorite), label: 'Favoris'),
         BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profil'),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.chat_bubble),
+          label: 'Chatbot',
+        ),
       ],
     );
   }

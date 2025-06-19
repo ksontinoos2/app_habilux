@@ -1,0 +1,18 @@
+[
+  {
+    "keywords": ["horaire", "ouverture", "fermeture"],
+    "response": "Notre agence est ouverte du lundi au vendredi de 9h à 18h."
+  },
+  {
+    "keywords": ["contact", "téléphone", "email"],
+    "response": "Vous pouvez nous contacter au +216 93 313 278 ou par email à ahmedksontini122@gmail.com."
+  },
+  {
+    "keywords": ["prix", "tarif", "coût"],
+    "response": "Les prix varient selon le bien. Veuillez préciser votre recherche."
+  },
+  {
+    "keywords": ["localisation", "adresse", "où"],
+    "response": "Nous sommes situés à rue taher ben fraj."
+  }
+] 

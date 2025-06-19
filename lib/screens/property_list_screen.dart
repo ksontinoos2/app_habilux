@@ -427,7 +427,7 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               const Text(
-                                'Prix (en €)',
+                                'Prix (en DT)',
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
                               RangeSlider(

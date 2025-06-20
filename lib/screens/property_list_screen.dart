@@ -24,7 +24,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
   final List<Map<String, dynamic>> allProperties = [
     // Villas
     {
-      'image': 'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
+      'image':
+          'https://plus.unsplash.com/premium_photo-1682377521625-c656fc1ff3e1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlsbGF8ZW58MHx8MHx8fDA%3D',
       'adresse': '123 Rue des Villas',
       'type': 'Villa',
       'prix': 1200000,
@@ -33,7 +34,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Tunis',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
+      'image':
+          'https://media.inmobalia.com/imgV1/B95mbh8olwFQm~uCUaVOI2kQT0hb0a8sZ9turUNfnwtvuccYCzs0YVPfPbfkc2VnnN1JFDplhuC3TbFKfXVpXWoYuP5Gy6tEWQPFksz8oklT8is6Atdqkg4IfY0UavEwouJDOOueqUfHJbQ_1l8qY1WmDp69Ub85bJ1_71ll0C7vH~L~TBkvbA1jDWw91w20FgG2c7SdRH10as9LVJ0Sys6ZXfPlxyBMWJKzigUS0xQ5bEHyFKb3zYudIZB23DTUyHz1Vsylvnwz5qtpP8bOrkHb5MJBXfjlXK3SiuCfpWEfFM3HEtjv6bXFtuicoXp9EFwj_XvPT_5maPLVSMKqN~PRxLa5Gd_6kyXrTUvDFq_Hm4i49WozZ8Ur3DZywiUySCMS4YcRQPnYnDnFlqK7.jpg',
       'adresse': 'Villa des Roses',
       'type': 'Villa',
       'prix': 950000,
@@ -42,7 +44,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Sousse',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca',
+      'image':
+          'https://st3.idealista.pt/news/arquivos/styles/fullwidth_xl/public/2023-02/media/image/200912673.jpg?VersionId=TvjBUnAHtEUTlc7w7tv6NcN6HdrYFszJ&itok=oM5UI4FD',
       'adresse': 'Villa Plage',
       'type': 'Villa',
       'prix': 2000000,
@@ -51,7 +54,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Nabeul',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1503389152951-9c3d8bca6c63',
+      'image':
+          'https://cf.bstatic.com/xdata/images/hotel/max1024x768/295090917.jpg?k=d17621b71b0eaa0c7a37d8d8d02d33896cef75145f61e7d96d296d88375a7d39&o=&hp=1',
       'adresse': 'Villa Centre Ville',
       'type': 'Villa',
       'prix': 1750000,
@@ -61,7 +65,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
     },
     // Appartements
     {
-      'image': 'https://images.unsplash.com/photo-1460518451285-97b6aa326961',
+      'image':
+          'https://www.shutterstock.com/image-photo/new-modern-block-flats-green-600nw-2501530247.jpg',
       'adresse': '45 Avenue des Champs',
       'type': 'Appartement',
       'prix': 350000,
@@ -70,7 +75,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Sfax',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae',
+      'image':
+          'https://www.shutterstock.com/image-photo/new-modern-block-flats-green-600nw-2501530247.jpg',
       'adresse': 'Appartement Corniche',
       'type': 'Appartement',
       'prix': 420000,
@@ -79,7 +85,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Tunis',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1464983953574-0892a716854b',
+      'image':
+          'https://www.shutterstock.com/image-photo/new-modern-block-flats-green-600nw-2501530247.jpg',
       'adresse': 'Appartement Sahloul',
       'type': 'Appartement',
       'prix': 390000,
@@ -88,7 +95,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Sousse',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308',
+      'image':
+          'https://www.shutterstock.com/image-photo/new-modern-block-flats-green-600nw-2501530247.jpg',
       'adresse': 'Appartement Lac',
       'type': 'Appartement',
       'prix': 510000,
@@ -98,7 +106,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
     },
     // Dépôts
     {
-      'image': 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2',
+      'image':
+          'https://media.istockphoto.com/id/1209677273/fr/photo/les-gens-faisant-du-shopping-au-home-depot-dans-la-r%C3%A9gion-de-la-baie-de-san-francisco.jpg?s=612x612&w=0&k=20&c=KrPC3m-wLS52ulQlGsmfgSm78LTwftSuD4EdfWEU3rs=',
       'adresse': 'Dépôt Industriel',
       'type': 'Dépôt',
       'prix': 800000,
@@ -107,7 +116,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Sousse',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1520880867055-1e30d1cb001c',
+      'image':
+          'https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2165979070.jpg?c=original',
       'adresse': 'Dépôt Logistique',
       'type': 'Dépôt',
       'prix': 1200000,
@@ -116,7 +126,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Tunis',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1465101178521-c1a9136a3b99',
+      'image':
+          'https://negoce.zepros.fr/sites/default/files/styles/max_1300x1300/public/2023-06/BRICO%20DEPOT%20CAHORS%2007.jpg?itok=-bFK8h4u',
       'adresse': 'Dépôt Sfax',
       'type': 'Dépôt',
       'prix': 950000,
@@ -125,7 +136,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Sfax',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
+      'image':
+          'https://magasins.electrodepot.fr/api/v1/medias/poi/one?mediaid=abf7671e-3659-4976-b241-a9c799e6c98e',
       'adresse': 'Dépôt Ariana',
       'type': 'Dépôt',
       'prix': 700000,
@@ -135,7 +147,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
     },
     // Bureaux commerciaux
     {
-      'image': 'https://images.unsplash.com/photo-1503389152951-9c3d8bca6c63',
+      'image':
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsrqqMSWHaxC9JrkS-wdtv8SyzVQj_54G8uA&s',
       'adresse': 'Bureau Centre Ville',
       'type': 'Bureau commercial',
       'prix': 2000,
@@ -144,7 +157,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Ariana',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca',
+      'image':
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZP5RlHDuLkQIAEDjW3Ifc5iKfr4Spvuhfpg&s',
       'adresse': 'Bureau Tunis',
       'type': 'Bureau commercial',
       'prix': 3500,
@@ -153,7 +167,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Tunis',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308',
+      'image':
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsrqqMSWHaxC9JrkS-wdtv8SyzVQj_54G8uA&s',
       'adresse': 'Bureau Sfax',
       'type': 'Bureau commercial',
       'prix': 2500,
@@ -162,7 +177,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Sfax',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1460518451285-97b6aa326961',
+      'image':
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcrGGlWWiJOdOTysMfcNT4U4yjQin_NRnVHA&s',
       'adresse': 'Bureau Sousse',
       'type': 'Bureau commercial',
       'prix': 3000,
@@ -172,7 +188,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
     },
     // Terrains
     {
-      'image': 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca',
+      'image':
+          'https://media.istockphoto.com/id/1019274338/fr/photo/b%C3%A2timent-parcelle-%C3%A0-vendre-%C3%A0-vendre-immobilier-signe.jpg?s=612x612&w=0&k=20&c=PRSzSA57GnsurMtvWZ0leBb6VwiyWkMMAV9MmV-EoEw=',
       'adresse': 'Terrain Plage',
       'type': 'Terrain',
       'prix': 500000,
@@ -181,7 +198,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Nabeul',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1464983953574-0892a716854b',
+      'image':
+          'https://lh3.googleusercontent.com/HbBE-i6BPzOa5YWEFGmDSUyxTqqKpWTdIZMI3OPkFJ0eX-c75arGwjEkVDYjojxzvZyNOaiRHcyb1DNKdT-fVmh-B-jqqknVMkvZEw=rj-w700-h660-l80',
       'adresse': 'Terrain Agricole',
       'type': 'Terrain',
       'prix': 350000,
@@ -190,7 +208,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Sfax',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae',
+      'image':
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw-NPEumf_hmzxSNNfCoMyOZO_-SSwNJ57XQ&s',
       'adresse': 'Terrain Résidentiel',
       'type': 'Terrain',
       'prix': 420000,
@@ -199,7 +218,8 @@ class _PropertyListScreenState extends State<PropertyListScreen> {
       'gouvernorat': 'Tunis',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
+      'image':
+          'https://media.istockphoto.com/id/1019274338/fr/photo/b%C3%A2timent-parcelle-%C3%A0-vendre-%C3%A0-vendre-immobilier-signe.jpg?s=612x612&w=0&k=20&c=PRSzSA57GnsurMtvWZ0leBb6VwiyWkMMAV9MmV-EoEw=',
       'adresse': 'Terrain Sousse',
       'type': 'Terrain',
       'prix': 390000,

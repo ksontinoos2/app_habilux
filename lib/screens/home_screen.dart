@@ -23,27 +23,32 @@ class _HomeScreenState extends State<HomeScreen> {
     {
       'label': 'Villa',
       'icon': Icons.house,
-      'image': 'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
+      'image':
+          'https://plus.unsplash.com/premium_photo-1682377521625-c656fc1ff3e1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlsbGF8ZW58MHx8MHx8fDA%3D',
     },
     {
       'label': 'Appartement',
       'icon': Icons.apartment,
-      'image': 'https://images.unsplash.com/photo-1460518451285-97b6aa326961',
+      'image':
+          'https://www.shutterstock.com/image-photo/new-modern-block-flats-green-600nw-2501530247.jpg',
     },
     {
       'label': 'Dépôt',
       'icon': Icons.warehouse,
-      'image': 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
+      'image':
+          'https://magasins.electrodepot.fr/api/v1/medias/poi/one?mediaid=abf7671e-3659-4976-b241-a9c799e6c98e',
     },
     {
       'label': 'Bureau commercial',
       'icon': Icons.business,
-      'image': 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f',
+      'image':
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcrGGlWWiJOdOTysMfcNT4U4yjQin_NRnVHA&s',
     },
     {
       'label': 'Terrain',
       'icon': Icons.terrain,
-      'image': 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca',
+      'image':
+          'https://lh3.googleusercontent.com/HbBE-i6BPzOa5YWEFGmDSUyxTqqKpWTdIZMI3OPkFJ0eX-c75arGwjEkVDYjojxzvZyNOaiRHcyb1DNKdT-fVmh-B-jqqknVMkvZEw=rj-w700-h660-l80',
     },
   ];
 

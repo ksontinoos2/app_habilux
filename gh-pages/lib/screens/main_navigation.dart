@@ -99,7 +99,8 @@ class _RechercheScreenState extends State<RechercheScreen> {
       'gouvernorat': 'Sfax',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
+      'image':
+          'https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2165979070.jpg?c=original',
       'adresse': 'Zone Industrielle',
       'type': 'Dépôt',
       'prix': 800000,
@@ -108,7 +109,8 @@ class _RechercheScreenState extends State<RechercheScreen> {
       'gouvernorat': 'Sousse',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1503389152951-9c3d8bca6c63',
+      'image':
+          'https://soumissionrenovation.ca/_next/image?url=https%3A%2F%2Fsoumissionrenovation.ca%2Fsn_uploads%2Fblog%2Fimages%2FCopie-de-Nouvelle-image-blog--2500---306-x----2023-10-02T113503.932_1.png&w=1200&q=75',
       'adresse': 'Centre Ville',
       'type': 'Bureau commercial',
       'prix': 2000,
@@ -117,7 +119,8 @@ class _RechercheScreenState extends State<RechercheScreen> {
       'gouvernorat': 'Ariana',
     },
     {
-      'image': 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca',
+      'image':
+          'https://lh3.googleusercontent.com/HbBE-i6BPzOa5YWEFGmDSUyxTqqKpWTdIZMI3OPkFJ0eX-c75arGwjEkVDYjojxzvZyNOaiRHcyb1DNKdT-fVmh-B-jqqknVMkvZEw=rj-w700-h660-l80',
       'adresse': 'Route de la Plage',
       'type': 'Terrain',
       'prix': 500000,

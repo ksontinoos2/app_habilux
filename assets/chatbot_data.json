@@ -1,18 +1,162 @@
 [
   {
-    "keywords": ["horaire", "ouverture", "fermeture"],
-    "response": "Notre agence est ouverte du lundi au vendredi de 9h à 18h."
+    "question": "Quels sont les documents nécessaires pour vendre un bien ?",
+    "keywords": ["documents", "papier", "vendre", "bien", "nécessaire"],
+    "answer": "Pour vendre un bien, vous avez besoin du titre de propriété, plan topographique, CIN, et d’autres documents légaux. Contactez-nous pour la liste complète."
   },
   {
-    "keywords": ["contact", "téléphone", "email"],
-    "response": "Vous pouvez nous contacter au +216 93 313 278 ou par email à ahmedksontini122@gmail.com."
+    "question": "Est-ce que vous proposez des terrains agricoles ?",
+    "keywords": ["terrain", "agricole", "ferme", "champ"],
+    "answer": "Oui, nous avons des terrains agricoles disponibles à la vente dans différentes régions."
   },
   {
-    "keywords": ["prix", "tarif", "coût"],
-    "response": "Les prix varient selon le bien. Veuillez préciser votre recherche."
+    "question": "Est-ce que vous proposez des biens avec financement ?",
+    "keywords": ["financement", "crédit", "banque", "payer", "mensuel"],
+    "answer": "Oui, certains biens sont éligibles au financement bancaire. Nous pouvons vous aider à monter votre dossier."
   },
   {
-    "keywords": ["localisation", "adresse", "où"],
-    "response": "Nous sommes situés à rue taher ben fraj."
+    "question": "Est-ce que vous avez des locations de courte durée ?",
+    "keywords": ["location", "courte", "durée", "vacances", "saison"],
+    "answer": "Oui, nous proposons des locations de courte durée idéales pour les vacances ou les séjours temporaires."
+  },
+  {
+    "question": "Est-ce que je peux filtrer les annonces par budget ?",
+    "keywords": ["budget", "prix", "filtrer", "montant", "cher"],
+    "answer": "Oui, vous pouvez utiliser les filtres de recherche pour définir votre budget minimum et maximum."
+  },
+  {
+    "question": "Comment contacter l’agence ?",
+    "keywords": ["contact", "joindre", "email", "téléphone"],
+    "answer": "Vous pouvez nous contacter via le formulaire de contact ou par téléphone au +216 93 313 278 ou +216 90 388 911."
+  },
+  {
+    "question": "Quels types de biens proposez-vous ?",
+    "keywords": ["types", "biens", "appartement", "villa", "terrain"],
+    "answer": "Nous proposons des appartements, villas, terrains, bureaux et dépôts à la vente et à la location."
+  },
+  {
+    "question": "Comment publier mon bien ?",
+    "keywords": ["publier", "ajouter", "mon bien", "vendre", "louer"],
+    "answer": "Contactez notre équipe pour ajouter votre bien ou créez un compte pour le faire directement en ligne."
+  },
+  {
+    "question": "Quelles sont les étapes pour acheter un bien ?",
+    "keywords": ["acheter", "procédure", "étapes", "acquisition"],
+    "answer": "La procédure inclut la recherche du bien, la visite, la négociation, la signature du contrat et l'enregistrement officiel."
+  },
+  {
+    "question": "Proposez-vous des biens à louer ?",
+    "keywords": ["location", "louer", "biens à louer", "loyer"],
+    "answer": "Oui, nous proposons plusieurs types de biens à louer : appartements, maisons, bureaux et locaux commerciaux."
+  },
+  {
+    "question": "Puis-je visiter un bien avant de l’acheter ?",
+    "keywords": ["visite", "voir", "avant d’acheter", "rendez-vous"],
+    "answer": "Bien sûr ! Il suffit de nous contacter pour fixer un rendez-vous de visite."
+  },
+  {
+    "question": "Quels sont vos frais d’agence ?",
+    "keywords": ["frais", "commission", "honoraires", "tarif"],
+    "answer": "Nos frais varient selon le type de transaction. Contactez-nous pour un devis personnalisé."
+  },
+  {
+    "question": "Offrez-vous des services de financement ?",
+    "keywords": ["crédit", "financement", "prêt", "banque"],
+    "answer": "Nous pouvons vous orienter vers nos partenaires bancaires pour faciliter votre financement."
+  },
+  {
+    "question": "Comment créer un compte sur votre site ?",
+    "keywords": ["compte", "inscription", "s’inscrire", "créer compte"],
+    "answer": "Cliquez sur 'S’inscrire' en haut de la page d’accueil, puis remplissez le formulaire d’inscription."
+  },
+  {
+    "question": "Où se situe votre agence ?",
+    "keywords": ["adresse", "emplacement", "localisation", "où"],
+    "answer": "Notre agence se trouve à Nabeul, au centre-ville."
+  },
+  {
+    "question": "Faites-vous des estimations de biens ?",
+    "keywords": ["estimation", "évaluer", "valeur", "prix du bien"],
+    "answer": "Oui, nous offrons un service d’estimation gratuit sur rendez-vous ou via notre formulaire en ligne."
+  },
+  {
+    "question": "Puis-je modifier les informations de mon annonce ?",
+    "keywords": ["modifier", "éditer", "changer", "annonce"],
+    "answer": "Oui, vous pouvez modifier votre annonce depuis votre espace personnel après connexion."
+  },
+  {
+    "question": "Combien de temps mon bien reste-t-il en ligne ?",
+    "keywords": ["durée", "combien de temps", "en ligne", "annonce visible"],
+    "answer": "Par défaut, une annonce reste en ligne pendant 90 jours, renouvelable sur demande."
+  },
+  {
+    "question": "Proposez-vous des biens neufs ?",
+    "keywords": ["neuf", "neufs", "programme neuf", "immobilier neuf"],
+    "answer": "Oui, nous proposons plusieurs projets immobiliers neufs en partenariat avec des promoteurs de confiance."
+  },
+  {
+    "question": "Aidez-vous les étrangers à acheter en Tunisie ?",
+    "keywords": ["étrangers", "expatriés", "acheter en Tunisie", "investisseurs étrangers"],
+    "answer": "Absolument. Nous accompagnons les clients étrangers dans toutes les démarches légales et administratives."
+  },
+  {
+    "question": "Est-ce que vous gérez la location pour le propriétaire ?",
+    "keywords": ["gestion", "location", "propriétaire", "administrer"],
+    "answer": "Oui, nous proposons un service de gestion locative complet, de la mise en location jusqu’à l’encaissement des loyers."
+  },
+  {
+    "question": "Peut-on payer en plusieurs fois ?",
+    "keywords": ["paiement", "facilité", "échelonné", "payer en plusieurs fois"],
+    "answer": "Certains promoteurs ou vendeurs acceptent des paiements échelonnés. Nous vous aidons à trouver les meilleures options."
+  },
+  {
+    "question": "Est-ce que vous travaillez avec des notaires ?",
+    "keywords": ["notaire", "signature", "contrat", "acte"],
+    "answer": "Oui, nous collaborons avec des notaires certifiés pour garantir des transactions sécurisées."
+  },
+  {
+    "question": "Quels sont vos horaires d’ouverture ?",
+    "keywords": ["horaires", "heures", "ouverture", "fermeture"],
+    "answer": "Notre agence est ouverte du lundi au samedi de 9h à 18h."
+  },
+  {
+    "question": "Est-ce que vous proposez des locations saisonnières ?",
+    "keywords": ["saisonnière", "vacances", "court terme", "location été"],
+    "answer": "Oui, nous avons des appartements et maisons disponibles pour des locations de courte durée, idéales pour les vacances."
+  },
+  {
+    "question": "Puis-je vendre un bien avec un crédit en cours ?",
+    "keywords": ["crédit", "hypothèque", "encours", "vendre avec crédit"],
+    "answer": "Oui, il est possible de vendre un bien avec un crédit en cours. Nous vous aiderons à gérer les démarches avec la banque."
+  },
+  {
+    "question": "Avez-vous des biens avec vue sur mer ?",
+    "keywords": ["vue mer", "bord de mer", "plage", "mer"],
+    "answer": "Oui, nous avons une sélection de biens avec vue sur mer, principalement dans les zones côtières comme Hammamet ou La Marsa."
+  },
+  {
+    "question": "Est-il possible de faire une visite virtuelle ?",
+    "keywords": ["visite virtuelle", "en ligne", "vidéo", "à distance"],
+    "answer": "Oui, pour certains biens, nous proposons des visites virtuelles en vidéo ou en visioconférence."
+  },
+  {
+    "question": "Puis-je déléguer la gestion de mon bien ?",
+    "keywords": ["gestion", "délégation", "administration", "mandat"],
+    "answer": "Oui, nous proposons un service complet de gestion immobilière pour les propriétaires occupés ou à l’étranger."
+  },
+  {
+    "question": "Faites-vous des promotions ou offres spéciales ?",
+    "keywords": ["promotion", "offre", "réduction", "remise"],
+    "answer": "Nous proposons régulièrement des offres spéciales, notamment sur les projets neufs. Consultez notre site pour les offres en cours."
+  },
+  {
+    "question": "Quels quartiers recommandez-vous pour investir ?",
+    "keywords": ["investir", "quartiers", "rentabilité", "zone conseillée"],
+    "answer": "Les quartiers comme Lac 1, Lac 2, Ennasr, et La Soukra sont très prisés pour l’investissement locatif."
+  },
+  {
+    "question": "Est-ce que je peux réserver un bien ?",
+    "keywords": ["réserver", "réservation", "bloquer", "option sur bien"],
+    "answer": "Oui, vous pouvez poser une option sur un bien pendant une période définie en versant un acompte."
   }
-] 
+]

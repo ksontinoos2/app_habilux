@@ -55,22 +55,80 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
   void _askQuestion() {
     final question = _controller.text.trim();
     if (question.isEmpty) return;
+
     setState(() {
       _messages.add(_Message(text: question, isUser: true));
     });
     _controller.clear();
     Future.delayed(const Duration(milliseconds: 100), () => _scrollToBottom());
+
+    // Amélioration de l'algorithme de recherche
     final lowerQuestion = question.toLowerCase();
-    String answer = "Désolé, je n'ai pas compris votre question.";
+    String answer =
+        "Désolé, je n'ai pas compris votre question. Pouvez-vous reformuler ou me poser une question sur nos services immobiliers ?";
+
+    // Recherche par mots-clés avec score de pertinence
+    Map<String, double> scores = {};
+
     for (final entry in _chatbotData) {
-      for (final keyword in entry['keywords']) {
-        if (lowerQuestion.contains(keyword)) {
-          answer = entry['response'];
-          break;
+      double score = 0;
+      final keywords = List<String>.from(entry['keywords']);
+
+      // Vérifier chaque mot-clé
+      for (final keyword in keywords) {
+        if (lowerQuestion.contains(keyword.toLowerCase())) {
+          score += 1;
         }
       }
-      if (answer != "Désolé, je n'ai pas compris votre question.") break;
+
+      // Bonus pour les mots-clés plus longs (plus spécifiques)
+      for (final keyword in keywords) {
+        if (keyword.length > 3 &&
+            lowerQuestion.contains(keyword.toLowerCase())) {
+          score += 0.5;
+        }
+      }
+
+      // Vérifier aussi dans la question
+      final questionText = entry['question'].toLowerCase();
+      if (lowerQuestion.contains(questionText.split(' ').first) ||
+          questionText.contains(lowerQuestion.split(' ').first)) {
+        score += 0.3;
+      }
+
+      if (score > 0) {
+        scores[entry['response']] = score;
+      }
     }
+
+    // Trouver la meilleure réponse
+    if (scores.isNotEmpty) {
+      String bestResponse =
+          scores.entries.reduce((a, b) => a.value > b.value ? a : b).key;
+
+      // Seuil minimum pour accepter une réponse
+      double maxScore = scores.values.reduce((a, b) => a > b ? a : b);
+      if (maxScore >= 0.5) {
+        answer = bestResponse;
+      }
+    }
+
+    // Réponses par défaut pour des questions communes
+    if (lowerQuestion.contains('bonjour') ||
+        lowerQuestion.contains('salut') ||
+        lowerQuestion.contains('hello')) {
+      answer =
+          "Bonjour ! Je suis l'assistant virtuel de HabiLux. Comment puis-je vous aider aujourd'hui ?";
+    } else if (lowerQuestion.contains('merci') ||
+        lowerQuestion.contains('thanks')) {
+      answer =
+          "Je vous en prie ! N'hésitez pas si vous avez d'autres questions sur nos services immobiliers.";
+    } else if (lowerQuestion.contains('au revoir') ||
+        lowerQuestion.contains('bye')) {
+      answer =
+          "Au revoir ! N'hésitez pas à revenir si vous avez d'autres questions. Bonne journée !";
+    }
+
     setState(() {
       _messages.add(_Message(text: answer, isUser: false));
     });

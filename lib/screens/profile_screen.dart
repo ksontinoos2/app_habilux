@@ -27,7 +27,7 @@ class _ProfileScreenState extends State<ProfileScreen>
       'image':
           'https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800',
       'titre': 'Villa de luxe à Marrakech',
-      'prix': '2,500,000 DH',
+      'prix': '2,500,000 DT',
       'localisation': 'Marrakech, Palmeraie',
       'type': 'Villa',
       'statut': 'À vendre',
@@ -36,7 +36,7 @@ class _ProfileScreenState extends State<ProfileScreen>
       'image':
           'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800',
       'titre': 'Appartement moderne à Casablanca',
-      'prix': '1,200,000 DH',
+      'prix': '1,200,000 DT',
       'localisation': 'Casablanca, Anfa',
       'type': 'Appartement',
       'statut': 'À vendre',

@@ -55,9 +55,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   // Biens à la une
   final List<Map<String, dynamic>> featuredProperties = [
     {
-      'title': 'Villa de luxe à Marrakech',
-      'price': '2,500,000 DH',
-      'location': 'Marrakech, Palmeraie',
+      'title': 'Villa de luxe à Tunis',
+      'price': '2,500,000 DT',
+      'location': 'Tunis, Palmeraie',
       'image':
           'https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800',
       'rating': 4.8,
@@ -65,9 +65,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
       'features': ['5 chambres', 'Piscine', 'Jardin'],
     },
     {
-      'title': 'Appartement moderne à Casablanca',
-      'price': '1,200,000 DH',
-      'location': 'Casablanca, Anfa',
+      'title': 'Appartement moderne à Sousse',
+      'price': '1,200,000 DT',
+      'location': 'Sousse, Anfa',
       'image':
           'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800',
       'rating': 4.6,
@@ -75,9 +75,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
       'features': ['3 chambres', 'Balcon', 'Parking'],
     },
     {
-      'title': 'Bureau premium à Rabat',
-      'price': '800,000 DH',
-      'location': 'Rabat, Agdal',
+      'title': 'Bureau premium à Mahdia',
+      'price': '800,000 DT',
+      'location': 'Mahdia, Agdal',
       'image':
           'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800',
       'rating': 4.7,

@@ -26,18 +26,18 @@ class _ProfileScreenState extends State<ProfileScreen>
     {
       'image':
           'https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800',
-      'titre': 'Villa de luxe à Marrakech',
+      'titre': 'Villa de luxe à Tunis',
       'prix': '2,500,000 DT',
-      'localisation': 'Marrakech, Palmeraie',
+      'localisation': 'Tunis, Palmeraie',
       'type': 'Villa',
       'statut': 'À vendre',
     },
     {
       'image':
           'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800',
-      'titre': 'Appartement moderne à Casablanca',
+      'titre': 'Appartement moderne à Sousse',
       'prix': '1,200,000 DT',
-      'localisation': 'Casablanca, Anfa',
+      'localisation': 'Sousse, Anfa',
       'type': 'Appartement',
       'statut': 'À vendre',
     },

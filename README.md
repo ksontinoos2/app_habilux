@@ -1,16 +1,3 @@
-# app_habilux
+Habiluxx Mobile – Real Estate Application
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Habiluxx Mobile is the mobile counterpart of the Habiluxx platform, developed using Flutter to provide a seamless cross-platform experience. It offers the same core features as the web platform, allowing users to browse properties for sale or rent, access detailed information, interact with an AI-powered chatbot for instant assistance, and explore properties through 3D virtual tours directly from their mobile devices. With Flutter, Habiluxx Mobile ensures high performance, smooth animations, and a responsive interface, enabling clients and agents to manage real estate activities anytime and anywhere.
